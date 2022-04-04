@@ -1,4 +1,4 @@
-
+import './DisplayEntry.css'
 
 const DisplayEntry = (props) => {
     return ( 

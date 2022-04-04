@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './AddEntry.css'
 
 
 const AddEntry = (props) => {

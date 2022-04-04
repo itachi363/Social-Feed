@@ -14,7 +14,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='container-fluid'>
       <div>
         <h3 style={{margin: '1em'}}>
           SocialFeed
