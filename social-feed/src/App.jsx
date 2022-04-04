@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import AddEntry from './component/addEntry/AddEntry';
+import DisplayEntry from './component/displayEntry/DisplayEntry';
+import './App.css'
 
 function App() {
 
@@ -20,6 +22,9 @@ function App() {
         <div>
           <div className='border-box'>
             <AddEntry addNewEntry={addNewEntry} />
+          </div>
+          <div className='border-box'>
+            <DisplayEntry parentEntries = {entries} />
           </div>
         </div>
       </div>
