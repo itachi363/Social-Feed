@@ -14,7 +14,7 @@ const DisplayEntry = (props) => {
                                 {entry.name}
                             </h3>
                         </div>
-                        <div>
+                        <div className='margin-date'>
                             {entry.date}
                         </div>
                         <div>

@@ -3,6 +3,7 @@ import AddEntry from './component/addEntry/AddEntry';
 import DisplayEntry from './component/displayEntry/DisplayEntry';
 import './App.css'
 
+
 function App() {
 
   const [entries, setEntries] = useState([{name: "Matt", post: "Had a fun time in Japan!!!", date: '11-23-2021'}, {name: "Jake", post: "Just finished work!!!", date: '11-24-2021'}])
@@ -14,10 +15,10 @@ function App() {
   }
 
   return (
-    <div className='container-fluid'>
+    <div>
       <div>
         <h3 style={{margin: '1em'}}>
-          SocialFeed
+          Social<medium className='text-color'>Feed</medium>
         </h3>
         <div>
           <div className='border-box-create'>

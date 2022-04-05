@@ -4,9 +4,14 @@
     border-color: black;
     height: 200px;
     width: 800px;
+    border-radius: 25px;
 }
 
 .buttons {
     display: flex;
     justify-content: right;
+}
+
+.margin-date {
+    margin-bottom: 10px;
 }
