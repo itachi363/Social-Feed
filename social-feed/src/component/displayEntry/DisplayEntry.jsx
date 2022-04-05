@@ -4,11 +4,9 @@ import DislikeButton from '../dislikeButton/DislikeButton'
 
 const DisplayEntry = (props) => {
 
-
-
     return ( 
         <tbody>
-            {props.parentEntries.map((entry, index) => {
+            {props.parentEntries.map((entry) => {
                 return( 
                     <body className='container'>                  
                         <div>
@@ -17,9 +15,12 @@ const DisplayEntry = (props) => {
                             </h3>
                         </div>
                         <div>
-                            {entry.post}
+                            {entry.date}
                         </div>
                         <div>
+                            {entry.post}
+                        </div>
+                        <div className='buttons'>
                             <CustomButton Like="button"/>
                             <DislikeButton Dislike="button"/>
                         </div>
