@@ -20,10 +20,10 @@ function App() {
           SocialFeed
         </h3>
         <div>
-          <div className='border-box'>
+          <div className='border-box-create'>
             <AddEntry addNewEntry={addNewEntry} />
           </div>
-          <div className='border-box'>
+          <div className='border-box-display'>
             <DisplayEntry parentEntries = {entries} />
           </div>
         </div>

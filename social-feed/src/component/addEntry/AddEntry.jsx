@@ -18,15 +18,15 @@ const AddEntry = (props) => {
 
     return ( 
         <form onSubmit={handleSubmit}>
-            <div>
-                <label>Name</label>
-                <input type='text' value={name} onChange={(event) => setName(event.target.value)} />
+            <div className="margin">
+                <label>Name </label>
+                <textarea className="form-control" rows="1" cols="80" value={name} onChange={(event) => setName(event.target.value)}></textarea>
             </div>
-            <div>
-                <label>Post</label>
-                <input type='text' value={post} onChange={(event) => setPost(event.target.value)} />
+            <div className="margin">
+                <label>Post </label>
+                <textarea className="form-control" rows="4" cols="80" value={post} onChange={(event) => setPost(event.target.value)}></textarea>
+                <button type="submit">Create</button>
             </div>
-            <button type="submit">Create</button>
         </form>
      );
 }
