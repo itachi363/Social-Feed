@@ -31,7 +31,7 @@ const AddEntry = (props) => {
             <div className="margin">
                 <label>Post </label>
                 <textarea rows="4" cols="80" value={post} onChange={(event) => setPost(event.target.value)}></textarea>
-                <button type="submit">Create</button>
+                <button type="submit" className="submit-button">Create</button>
             </div>
         </form>
      );
